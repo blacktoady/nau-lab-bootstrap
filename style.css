@@ -9,5 +9,13 @@
 }
 .content-cards {
     margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 415px) {
+    .carousel-item {
+        display: block ;
+        height: 235px;
+    }
 }
 
